@@ -62,7 +62,8 @@ const NewsComp = () => {
 function MainPage() {
 
     //body 
-    document.body.style.overflowY = "scroll";
+    document.body.style.overflowY = "scroll"; 
+    document.body.style.overflowX = "hidden"; 
 
     //carousel 
     const breakPoints = [
